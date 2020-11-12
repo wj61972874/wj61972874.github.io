@@ -1,0 +1,14 @@
+html {
+    background-color: aliceblue;
+    background-image: url('http://chuantu.xyz/t6/741/1605175500x-1404755109.jpg');
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+  }
+
+body{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}

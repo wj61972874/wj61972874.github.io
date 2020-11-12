@@ -1,0 +1,32 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.avatars{
+    height: 200px;
+    width: 200px;
+}
+
+.avatarsImg{
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+}
+
+.nickname{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.motto{
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
