@@ -66,9 +66,9 @@ gatsby develop
 
 ## 配置
 
-首先最重要的就是 `gatsby-config.js` 文件了，我们需要在里面启用上述安装的插件，配置可以到 [sasuke40.githu.io](https://github.com/SASUKE40/sasuke40.github.io) 查看。
+首先最重要的就是 `gatsby-config.js` 文件了，我们需要在里面启用上述安装的插件.
 
-还有得去 [google analytics](https://analytics.google.com/) 配置一下记录站点的访问信息。
+还有得去 腾讯云站点管理工具 配置一下记录站点的访问信息。
 ![image](/assets/domain-config.jpg)
 配置结束会给你个跟踪 ID，在配置文件 `gatsby-plugin-google-analytics` 下修改就行。
 
