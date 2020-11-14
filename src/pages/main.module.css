@@ -1,0 +1,114 @@
+.motto{
+    font-family: initial;
+}
+
+.blogContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 24px;
+}
+
+.blogItem{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.blogLeft{
+    height: 15%;
+    width: 40%;
+}
+
+.mainImage{
+    height: 100%;
+    width: 100%;
+    /* transition: opacity 500ms ease 0s; */
+}
+
+.mainImage:hover{
+    box-shadow: 2px 2px 10px #909090;
+
+}
+
+.blogRight{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 24px;
+    width: 50%;
+}
+
+.blogTitle{
+    font-family: 'Merriweather',Georgia,Serif;;
+}
+
+.shortText{
+    color: var(--theme-ui-colors-grey,#73737D);
+    max-width: 650px;
+}
+
+
+.carouselDemoWrapper {
+    position: relative;
+    /* background: #3949C0; */
+    background: rgba(0,0,0,.4);
+    overflow: hidden;
+    height: 500px;
+  }
+  
+  .carouselDemo {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carouselWrapper {
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 120px;
+    padding-top: 350px;
+    margin-top: -350px;
+  }
+  
+  .carousel {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+  }
+
+  .carouselContent {
+    transform-style: preserve-3d;
+    width: 100%;
+  }
+  
+  .itemWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-style: preserve-3d;
+    width: 100%;
+  }
+  
+  .itemWrapper .rotateLayer .bgAndBlurLayer {
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    transition: filter .45s;
+    margin: auto;
+  }
+  
+  .itemWrapper .rotateLayer .bgAndBlurLayer .contentLayer {
+    transition: opacity .65s;
+  }
+  
+  .imgWrapper {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }

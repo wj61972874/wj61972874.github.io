@@ -1,7 +1,10 @@
 .container{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.4);
 }
 
 .avatars{
@@ -20,6 +23,8 @@
     padding-top: 30px;
     font-size: 25px;
     font-weight: 500;
+    color:#FFF;
+    font-family: cursive;
 }
 
 .motto{
@@ -28,5 +33,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    color:#FFF;
+    font-family: cursive;
 }
