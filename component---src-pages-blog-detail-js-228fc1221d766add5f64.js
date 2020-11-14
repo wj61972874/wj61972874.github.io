@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{hMgJ:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),o=n.n(a),c=n("Bl7J"),i=n("0Xwh");t.default=function(e){var t=e.location;return console.log("***",t),Object(a.useEffect)((function(){document.getElementById("detailBody").innerHTML=t.state.node.html})),o.a.createElement(c.a,null,o.a.createElement(i.a,{key:"queueAnim",delay:2e3,duration:2e3,opacity:[1,0]},o.a.createElement("div",{id:"detailBody"})))}}}]);
+//# sourceMappingURL=component---src-pages-blog-detail-js-228fc1221d766add5f64.js.map
