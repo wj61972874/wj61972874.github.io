@@ -11,7 +11,7 @@ export default () => (
         <div className={indexStyles.avatars}>
           <img
             className={indexStyles.avatarsImg}
-            src="http://chuantu.xyz/t6/741/1605176351x-1404755629.jpg"
+            src="http://m.qpic.cn/psc?/V519aaEB2IYU2d0puSD52LCS9S0Bsmzj/Sc7wZG8Q0BUeMz.O80ebfNHvoebaicynlLLSZhSMap*uW9YV8RcSCvuenXDKpbIkf2T68ZyK6.PNqNbFvKKu45ffuO6noRG9I1I4UYLd7T8!/b&bo=gAKAAgAAAAABFzA!&rf=viewer_4"
           />
         </div>
         <div className={indexStyles.nickname}>一只大大的杰哥</div>

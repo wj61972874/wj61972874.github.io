@@ -7,21 +7,6 @@ import { navigate } from "gatsby"
 import QueueAnim from "rc-queue-anim"
 
 export default ({ data }) => {
-//   const imgWrapper = [
-//     "https://zos.alipayobjects.com/rmsportal/DGOtoWASeguMJgV.png",
-//     "https://zos.alipayobjects.com/rmsportal/PDiTkHViQNVHddN.png",
-//     "https://zos.alipayobjects.com/rmsportal/QJmGZYJBRLkxFSy.png",
-//     "https://zos.alipayobjects.com/rmsportal/pTfNdthdsUpLPLJ.png",
-//     "https://zos.alipayobjects.com/rmsportal/TDIbcrKdLWVeWJM.png",
-//     "https://zos.alipayobjects.com/rmsportal/dvQuFtUoRmvWLsZ.png",
-//     /* 'https://zos.alipayobjects.com/rmsportal/QqWQKvgLSJaYbpr.png',
-//         'https://zos.alipayobjects.com/rmsportal/vJcpMCTaSKSVWyH.png', */
-//   ]
-//   const imgWrapper=data.allMarkdownRemark.edges.map(node=>{
-//     console.log("mainImage",node.node)
-//       return node.node.frontmatter.mainImage;
-//   });
-
     // console.log("*******",data)
   const children = data.allMarkdownRemark.edges.map((node, i) => (
      console.log("*******",node),

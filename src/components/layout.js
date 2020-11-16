@@ -13,7 +13,7 @@ export default ({ children }) => (
     <header style={{ marginBottom: `1.5rem` }}>
       <Link to="/main/" style={{ textShadow: `none`, backgroundImage: `none`,display:'flex',alignItems:'center',width:'20%' }}>
         {/* <h1 style={{ display: `inline` }}>Go bing, or go home</h1> */}
-        <img className={layoutStyles.avatarsImg} src="http://chuantu.xyz/t6/741/1605176351x-1404755629.jpg"/>
+        <img className={layoutStyles.avatarsImg} src="http://m.qpic.cn/psc?/V519aaEB2IYU2d0puSD52LCS9S0Bsmzj/Sc7wZG8Q0BUeMz.O80ebfNHvoebaicynlLLSZhSMap*uW9YV8RcSCvuenXDKpbIkf2T68ZyK6.PNqNbFvKKu45ffuO6noRG9I1I4UYLd7T8!/b&bo=gAKAAgAAAAABFzA!&rf=viewer_4"/>
         <span className={layoutStyles.name}>A Cool Jay</span>
       </Link>
         
